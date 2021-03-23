@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(materyaller/arkaplan.jpg);
+}
+
+.logo {
+    background-color: white;
+    background-size: auto;
+    border-radius: 50%;
+    padding: 5px;
+    width: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 109px;
+    display: block;
+}
+
+.kutu {
+    width: 320px;
+    height: 266px;
+    background-color: #ffffff;
+    border: 1px solid #ccd0d4;
+    border-radius: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 25px;
+    padding: 24px;
+}
+
+.forkam {
+    font-size: 14px;
+}
+
+input[type=text] {
+    padding: 7px;
+    width: 270px;
+    border-radius: 4px;
+    border: 1px solid #7e8993;
+    box-sizing: border-box;
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #0073aa;
+}
+
+.pm {
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+input[type="password"] {
+    background-image: url(materyaller/acik.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 96%;
+    padding: 7px;
+    width: 270px;
+    border-radius: 4px;
+    border: 1px solid #7e8993;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+
+.benihatirla {
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.girisbuton {
+    width: 100%;
+    background-color: #21759b;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.altyazi {
+    background-color: #21759b;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+}
